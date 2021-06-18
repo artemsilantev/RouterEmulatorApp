@@ -1,0 +1,12 @@
+C:\Users\silan\Desktop\Emulation\RouterEmulatorApp\IPv6Library\bin\Debug\IPv6Library.dll
+C:\Users\silan\Desktop\Emulation\RouterEmulatorApp\IPv6Library\bin\Debug\IPv6Library.pdb
+C:\Users\silan\Desktop\Emulation\RouterEmulatorApp\IPv6Library\obj\Debug\IPv6Library.csprojAssemblyReference.cache
+C:\Users\silan\Desktop\Emulation\RouterEmulatorApp\IPv6Library\obj\Debug\IPv6Library.csproj.CoreCompileInputs.cache
+C:\Users\silan\Desktop\Emulation\RouterEmulatorApp\IPv6Library\obj\Debug\IPv6Library.dll
+C:\Users\silan\Desktop\Emulation\RouterEmulatorApp\IPv6Library\obj\Debug\IPv6Library.pdb
+C:\Users\silan\Desktop\Курсовая\RouterEmulatorApp\IPv6Library\bin\Debug\IPv6Library.dll
+C:\Users\silan\Desktop\Курсовая\RouterEmulatorApp\IPv6Library\bin\Debug\IPv6Library.pdb
+C:\Users\silan\Desktop\Курсовая\RouterEmulatorApp\IPv6Library\obj\Debug\IPv6Library.csprojAssemblyReference.cache
+C:\Users\silan\Desktop\Курсовая\RouterEmulatorApp\IPv6Library\obj\Debug\IPv6Library.csproj.CoreCompileInputs.cache
+C:\Users\silan\Desktop\Курсовая\RouterEmulatorApp\IPv6Library\obj\Debug\IPv6Library.dll
+C:\Users\silan\Desktop\Курсовая\RouterEmulatorApp\IPv6Library\obj\Debug\IPv6Library.pdb

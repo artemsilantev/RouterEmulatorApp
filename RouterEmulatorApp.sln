@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RouterEmulatorApp", "RouterEmulatorApp\RouterEmulatorApp.csproj", "{195B1381-0E0F-4CB1-BA5D-0D894A8B91FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPv6Library", "IPv6Library\IPv6Library.csproj", "{458E1D0B-5465-4DCA-B847-5E34DBE7EDBF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{195B1381-0E0F-4CB1-BA5D-0D894A8B91FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{195B1381-0E0F-4CB1-BA5D-0D894A8B91FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{195B1381-0E0F-4CB1-BA5D-0D894A8B91FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{195B1381-0E0F-4CB1-BA5D-0D894A8B91FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{458E1D0B-5465-4DCA-B847-5E34DBE7EDBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{458E1D0B-5465-4DCA-B847-5E34DBE7EDBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{458E1D0B-5465-4DCA-B847-5E34DBE7EDBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{458E1D0B-5465-4DCA-B847-5E34DBE7EDBF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

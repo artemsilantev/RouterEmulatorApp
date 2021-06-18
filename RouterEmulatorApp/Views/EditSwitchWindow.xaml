@@ -1,0 +1,55 @@
+﻿<Window x:Class="RouterEmulatorApp.Views.EditSwitchWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:RouterEmulatorApp.Views"
+        mc:Ignorable="d"
+        ResizeMode="NoResize"
+        Title="Switch info"
+        Icon="../Resources/Images/routerSelected.png"
+        Height="380" Width="500">
+    <Window.Resources>
+        <ResourceDictionary Source="../Resources/Dictionaries/LightStyle.xaml" />
+    </Window.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.3*" />
+            <ColumnDefinition Width="0.7*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Border Grid.ColumnSpan="2" Background="FloralWhite"
+                BorderBrush="MidnightBlue" BorderThickness="0,0,0,3">
+            <TextBlock x:Name="textBlockHeader" HorizontalAlignment="Center"
+                       VerticalAlignment="Center" Text="Port 13" FontSize="35" FontWeight="DemiBold" />
+        </Border>
+        <Label Grid.Row="1" VerticalAlignment="Center"
+               FontSize="20" Content="Address:" />
+        <TextBox Grid.Row="1" Grid.Column="2" x:Name="textBoxAddress" Text="TestText" VerticalAlignment="Center"
+                 Margin="5" FontSize="20" PreviewTextInput="TextBoxAddress_OnPreviewTextInput" />
+        <Label Grid.Row="2" VerticalAlignment="Center"
+               FontSize="20" Content="Prefix:" />
+        <TextBox Grid.Row="2" Grid.Column="2" x:Name="textBoxPrefix" Text="32" VerticalAlignment="Center"
+                 Margin="5" FontSize="20" PreviewTextInput="TextBoxPrefix_OnPreviewTextInput" />
+        <Label Grid.Row="3" VerticalAlignment="Center"
+               FontSize="20" Content="Network:" />
+        <TextBox Grid.Row="3" Grid.Column="2" x:Name="textBoxSubnet" Text="20" VerticalAlignment="Center"
+                 IsEnabled="False" Margin="5" FontSize="20" PreviewTextInput="TextBoxAddress_OnPreviewTextInput" />
+
+        <Border Grid.Row="4" Grid.ColumnSpan="2" Margin="0,0,0,0" Background="FloralWhite"
+                BorderBrush="MidnightBlue" BorderThickness="0,3,0,0">
+            <StackPanel Orientation="Horizontal">
+                <Button x:Name="buttonCloseWindow" Width="150" Height="50" Margin="20,0,0,0"
+                        FontSize="20" Click="ButtonCloseWindow_OnClick" Content="Exit" />
+                <Button x:Name="buttonSaveChanges" Width="150" Height="50" Margin="156,0,10,0"
+                        FontSize="20" Click="ButtonSaveChanges_OnClick" Content="Save" />
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>
